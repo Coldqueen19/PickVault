@@ -1,0 +1,38 @@
+img {
+    display:block;
+    margin:auto;
+}
+header {
+    background-color: black;
+    width: 100%;
+    font-family: "Courier New", monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    font-family: copperplate;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: grey;
+  }
+  ul li a.active {
+    background-color: blue;
+  }
+  body {
+    background-color: gray;
+    font-family: "Courier New", monospace;
+  }
