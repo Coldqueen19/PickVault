@@ -64,10 +64,6 @@ ol {
   li a:hover, .dropdown:hover .dropbtn {
     background-color: gray;
   }
-
-  li a:hover,.dropdown-content a:hover, .dropdown:hover .dropbtn {
-    background-color: blue;
-  }
   
   li.dropdown {
     display: inline-block;
